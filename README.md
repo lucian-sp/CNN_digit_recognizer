@@ -9,7 +9,7 @@ I am a novice in ML and programming in general; until a year ago, python was jus
 
 I did all the tutorials on Kaggle, the Analytics Vidhya model (with Keras and Tensorflow), worked throught the TensorFlow tutorial, even tried a bit of VGG16 on the dataset. My first good results came with multi-layer perceptron in Keras, where I did some pre-processing on the data as numpy arrays and used the following model:
 - conv, conv, maxpool, conv, conv, maxpool, conv, maxpool, flatten, dense, dropout, dense(with 10 classes, 0-9, and softmax activation)
-- the activation was relu for the conv and the first dense; i used Adam as the optimizer for this model. This model gave me 97% accuracy.
+- the activation was relu for the conv and the first dense; i used Adam as the optimizer for this model. It has 97% accuracy.
 
 I tried some image data augmentation with Keras, different combination of algorithms but I got worst results and I moved to another CNN.
 (I might have been doing something wrong).
